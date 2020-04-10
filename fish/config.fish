@@ -1,6 +1,9 @@
+# rvm
 set -g -x PATH "$HOME/.rvm/bin" $PATH
 set -g -x PATH /usr/local/bin $PATH
-set -g -x PATH /usr/local/bin/mine $PATH
+
+# put Rust/Cargo in the path
+set -g -x PATH "$HOME/.cargo/bin" $PATH
 
 # Go stuff
 set GOPATH "$HOME/go"
