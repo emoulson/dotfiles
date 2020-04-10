@@ -1,0 +1,15 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.tabSize": 2,
+  "editor.fontFamily": "'Fira Code', 'Menlo Powerline', Menlo, Monaco, 'Courier New', monospace",
+  "workbench.colorTheme": "Dracula",
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "all",
+  "window.zoomLevel": 0,
+  "editor.largeFileOptimizations": false,
+  "editor.fontSize": 14,
+  "editor.renderControlCharacters": true,
+  "files.associations": {
+      "*.json": "json"
+  }
+}

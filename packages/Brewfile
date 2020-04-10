@@ -1,0 +1,129 @@
+# Brewfile for emoulson
+# https://github.com/emoulson
+# 2020-04-09
+
+###############################################################################
+# Prereqs and taps                                                            #
+###############################################################################
+
+tap "github/gh"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+tap "aws/tap"
+
+###############################################################################
+# Replace native tooling                                                      #
+###############################################################################
+
+# Install more recent versions of some macOS tools.
+brew "vim", args: ["override-system-vi"]
+brew "homebrew/dupes/grep"
+brew "homebrew/dupes/openssh"
+brew "homebrew/dupes/screen"
+brew "openssl"
+brew "libtool"
+brew "libxml2"
+
+# Install some other useful utilities like `sponge`.
+brew "moreutils"
+# Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
+brew "findutils"
+# Install GNU `sed`, overwriting the built-in `sed`.
+brew "gnu-sed", args: ["with-default-names"]
+# Install `wget` with IRI support.
+brew "wget", args: ["with-iri"]
+# Automatic configure script builder
+brew "autoconf" 
+# Tool for generating GNU Standards-compliant Makefiles
+brew "automake"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat" # needs to be aliased to `cat`
+# Readline
+brew "readline"
+# Replacement for cd
+brew "exa" # needs to be aliased to `cd`
+# The Friendly interactive shell (Fish)
+brew "fish"
+brew "gnupg"
+
+###############################################################################
+# Languages and flotsam                                                       #
+###############################################################################
+
+# Python
+brew "python"
+# Node.js
+brew "node"
+# Utility for reloading JS files
+brew "watchman"
+# JDK
+tap "adoptopenjdk/openjdk"
+cask "adoptopenjdk8"
+# PostgreSQL
+brew "postgresql"
+# Go
+brew "go"
+# SQLite
+brew "sqlite"
+# Terraform
+brew "terraform"
+# Heroku
+brew "heroku/brew/heroku"
+
+
+###############################################################################
+# Applications and Utilities                                                  #
+###############################################################################
+
+cask "google-chrome"
+cask "firefox-developer-edition"
+# YAML Parser
+brew "libyaml"
+# Library for command-line editing
+brew "readline" 
+# General-purpose data compression with high compression ratio
+brew "xz" 
+# Automate deployment, configuration, and upgrading
+brew "ansible" 
+# Official Amazon AWS command-line interface
+brew "awscli"
+# terminal and text editors' fonts
+cask "homebrew/cask-fonts/font-fira-code"
+cask "homebrew/cask-fonts/font-source-code-pro"
+cask "homebrew/cask-fonts/font-roboto-mono"
+# text editor
+cask "visual-studio-code"
+# social, groupware, communication
+cask "slack"
+cask "whatsapp"
+cask "zoomus"
+cask "android-messages"
+# localhost dev
+cask "ngrok"
+# API testing
+cask "postman"
+# Terminal replacement
+cask "iterm2"
+# xpath for JSON
+brew "jq"
+# Github gh tool
+brew "github/gh/gh"
+# Spotify
+cask "spotify"
+# Atom
+cask "atom"
+# Steam
+cask "steam"
+# Bitwarden
+cask "bitwarden"
+brew "bitwarden-cli"
+# GIMP
+cask "gimp"
+# Spectacle
+cask "spectacle"
+# Alfred
+cask "alfred"

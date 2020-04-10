@@ -1,0 +1,14 @@
+[user]
+  name = Evan Moulson
+  email = moulson.evan@gmail.com
+[core]
+  excludesfile = ~/.gitignore_global
+  editor = /usr/bin/vim
+[push]
+  default = simple
+[alias]
+  unstage = reset HEAD --
+  uncommit = reset --soft HEAD~
+  pull = pull --ff-only
+[credential]
+  helper = osxkeychain

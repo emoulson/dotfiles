@@ -1,0 +1,27 @@
+# Theme
+akamud.vscode-theme-onedark
+dracula-theme.theme-dracula
+#
+# Languages
+be5invis.toml
+DotJoshJohnson.xml
+erd0s.terraform-autocomplete
+rebornix.ruby
+serayuzgur.crates
+skyapps.fish-vscode
+wingrunr21.vscode-ruby
+#
+# Linters and tools
+dbaeumer.vscode-eslint
+eriklynd.json-tools
+brunnerh.insert-unicode
+GrapeCity.gc-excelviewer
+Hridoy.rails-snippets
+janisdd.vscode-edit-csv
+mechatroner.rainbow-csv
+mitchdenny.ecdc
+mohsen1.prettify-json
+ms-azuretools.vscode-docker
+pkosta2005.heroku-command
+WakaTime.vscode-wakatime
+WallabyJs.quokka-vscode
