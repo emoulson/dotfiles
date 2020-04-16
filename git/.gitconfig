@@ -10,5 +10,3 @@
   unstage = reset HEAD --
   uncommit = reset --soft HEAD~
   pull = pull --ff-only
-[credential]
-  helper = osxkeychain
