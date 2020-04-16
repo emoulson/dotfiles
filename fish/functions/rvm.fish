@@ -38,9 +38,3 @@ function __handle_rvmrc_stuff --on-variable PWD
     set -e cwd
   end
 end
-
-# ~/.config/fish/functions/rvm.fish
-
-# function rvm --description "Ruby Version Manager"
-#   exec bash --login -c "rvm $argv; exec fish" ^&1
-# end

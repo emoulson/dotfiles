@@ -9,8 +9,7 @@ function fish_title \
     set --local prompt "$basename: $last_command $pure_symbol_title_bar_separator $current_command"
 
     if test -z "$last_command"
-        set prompt "$current_folder
-        $pure_symbol_title_bar_separator $current_command"
+        set prompt "$current_folder $pure_symbol_title_bar_separator $current_command"
     end
 
     echo $prompt

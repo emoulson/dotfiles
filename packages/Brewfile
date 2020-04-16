@@ -18,10 +18,9 @@ tap "aws/tap"
 ###############################################################################
 
 # Install more recent versions of some macOS tools.
-brew "vim", args: ["override-system-vi"]
-brew "homebrew/dupes/grep"
-brew "homebrew/dupes/openssh"
-brew "homebrew/dupes/screen"
+brew "grep"
+brew "openssh"
+brew "screen"
 brew "openssl"
 brew "libtool"
 brew "libxml2"
@@ -30,10 +29,6 @@ brew "libxml2"
 brew "moreutils"
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew "findutils"
-# Install GNU `sed`, overwriting the built-in `sed`.
-brew "gnu-sed", args: ["with-default-names"]
-# Install `wget` with IRI support.
-brew "wget", args: ["with-iri"]
 # Automatic configure script builder
 brew "autoconf" 
 # Tool for generating GNU Standards-compliant Makefiles
@@ -72,7 +67,7 @@ brew "sqlite"
 # Terraform
 brew "terraform"
 # Heroku
-brew "heroku/brew/heroku"
+brew "heroku"
 
 
 ###############################################################################
@@ -94,7 +89,7 @@ brew "awscli"
 # terminal and text editors' fonts
 cask "homebrew/cask-fonts/font-fira-code"
 cask "homebrew/cask-fonts/font-source-code-pro"
-cask "homebrew/cask-fonts/font-roboto-mono"
+#cask "homebrew/cask-fonts/font-roboto-mono"
 # text editor
 cask "visual-studio-code"
 # social, groupware, communication
