@@ -1,6 +1,5 @@
 # Brewfile for emoulson
 # https://github.com/emoulson
-# 2020-04-09
 
 ###############################################################################
 # Prereqs and taps                                                            #
@@ -44,6 +43,8 @@ brew "exa" # needs to be aliased to `cd`
 # The Friendly interactive shell (Fish)
 brew "fish"
 brew "gnupg"
+# Install GNU utilities for networking, like FTP
+brew "inetutils"
 
 ###############################################################################
 # Languages and flotsam                                                       #
