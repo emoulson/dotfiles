@@ -18,9 +18,20 @@ if not functions -q fisher
     fish -c fisher
 end
 
+# Starship
+starship init fish | source
+
 # Aliases
 alias cat="bat"
 alias ls="exa"
+alias gs="git status"
+alias ga="git add "
+alias gc="git commit -m"
+alias gco="git checkout"
+alias gp="git push"
+alias gl="git pull"
+alias glm="git checkout master && git pull"
+alias unstage="git restore --staged "
 
 # Git aliases
 alias gco="git checkout"
