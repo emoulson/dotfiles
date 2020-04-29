@@ -123,3 +123,5 @@ cask "gimp"
 cask "spectacle"
 # Alfred
 cask "alfred"
+# Rust-powered cross-shell prompt
+brew "starship"
